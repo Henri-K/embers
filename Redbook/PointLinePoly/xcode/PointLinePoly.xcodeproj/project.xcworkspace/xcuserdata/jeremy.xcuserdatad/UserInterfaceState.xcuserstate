@@ -313,9 +313,9 @@
 		<string>PrimaryDocumentVisibleCharacterRange</string>
 		<string>HideAllIssues</string>
 		<string>PrimaryDocumentSelectedCharacterRange</string>
-		<real>331414370.47434199</real>
+		<real>331414818.68180102</real>
 		<string>{160, 1688}</string>
-		<string>{674, 0}</string>
+		<string>{465, 0}</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -729,7 +729,7 @@
 				<integer>76</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>331414365.474078</real>
+			<real>331414813.68158102</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -740,7 +740,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 12:32 PM</string>
+		<string>Today at 12:40 PM</string>
 		<dict>
 			<key>$classes</key>
 			<array>
@@ -1146,7 +1146,7 @@
 				</dict>
 				<dict>
 					<key>CF$UID</key>
-					<integer>121</integer>
+					<integer>118</integer>
 				</dict>
 				<dict>
 					<key>CF$UID</key>
@@ -2332,10 +2332,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>331414370.47496498</real>
+		<real>331414818.68264502</real>
 		<string>{160, 1688}</string>
-		<string>{674, 0}</string>
-		<string>PointLinePolyApp::draw()</string>
+		<string>{465, 0}</string>
+		<string>PointLinePolyApp::prepareSettings(Settings *settings )</string>
 		<dict>
 			<key>$class</key>
 			<dict>
