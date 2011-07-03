@@ -117,9 +117,6 @@ void TextureSequence::createFromPathList( vector<string> paths )
     totalFrames = textures.size();
 }
 
-/**
- * -- Creates the sequence from a list of pre-created textures
- */
 void TextureSequence::createFromTextureList( vector<Texture> textureList )
 {
     textures.clear();
