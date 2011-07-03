@@ -15,7 +15,7 @@
 		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
 		00BAE65A0E7ED9C10018A608 /* Example0205App.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 00BAE6590E7ED9C10018A608 /* Example0205App.cpp */; };
 		00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 00CCAF14116A9FEE008396D5 /* CinderApp.icns */; };
-		3FE2DF1313C05DC900E94709 /* Andale Mono.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3FE2DF1213C05DC900E94709 /* Andale Mono.ttf */; };
+		3F0AD69113C0F68F00DC594B /* pf_tempesta_seven.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3F0AD69013C0F68F00DC594B /* pf_tempesta_seven.ttf */; };
 		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
 		5323E6B60EAFCA7E003A9687 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B50EAFCA7E003A9687 /* QTKit.framework */; };
 		53E3CDFC0E86099300238D2B /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53E3CDFB0E86099300238D2B /* Carbon.framework */; };
@@ -36,7 +36,7 @@
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32CA4F630368D1EE00C91783 /* Example0205_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Example0205_Prefix.pch; sourceTree = "<group>"; };
-		3FE2DF1213C05DC900E94709 /* Andale Mono.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Andale Mono.ttf"; path = "../resources/Andale Mono.ttf"; sourceTree = "<group>"; };
+		3F0AD69013C0F68F00DC594B /* pf_tempesta_seven.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = pf_tempesta_seven.ttf; path = ../../../Shared/resources/pf_tempesta_seven.ttf; sourceTree = "<group>"; };
 		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
 		5323E6B50EAFCA7E003A9687 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = /System/Library/Frameworks/QTKit.framework; sourceTree = "<absolute>"; };
 		53E3CDFB0E86099300238D2B /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
@@ -131,7 +131,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3FE2DF1213C05DC900E94709 /* Andale Mono.ttf */,
+				3F0AD69013C0F68F00DC594B /* pf_tempesta_seven.ttf */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
 			);
@@ -195,7 +195,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
-				3FE2DF1313C05DC900E94709 /* Andale Mono.ttf in Resources */,
+				3F0AD69113C0F68F00DC594B /* pf_tempesta_seven.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

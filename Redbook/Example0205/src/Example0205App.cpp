@@ -21,7 +21,7 @@ class Example0205App : public AppBasic {
 
 void Example0205App::setup()
 {
-    font = Font( loadResource( "Andale Mono.ttf" ), 10 );
+    font = Font( loadResource( "pf_tempesta_seven.ttf" ), 8 );
     gl::enableAlphaBlending();
 }
 
@@ -32,7 +32,7 @@ void Example0205App::draw()
     int w = getWindowWidth() - 10;
     uint pattern;
 	
-	gl::clear( Color( 0, 0, 0 ) ); 
+	gl::clear( Color( .1, .16, .19 ) ); 
     
     gl::color( Color::white() );
     glLineWidth( 1.0f );
