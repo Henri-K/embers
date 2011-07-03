@@ -12,30 +12,17 @@ using namespace std;
 class Example0205App : public AppBasic {
   public:
 	void setup();
-	void mouseDown( MouseEvent event );	
-    void drawOneLine( float x1, float x2, float y1, float y2 );
-	void update();
 	void draw();
     void drawPatternString( uint n, Vec2i pos );
+    void drawOneLine( float x1, float x2, float y1, float y2 );
     
     Font font;
 };
 
 void Example0205App::setup()
 {
-    // -- convert a 16 bit integer to binary
-    //std::bitset<16>  x(0x0101);
-    //std::cout << x << std::endl;
     font = Font( loadResource( "Andale Mono.ttf" ), 10 );
     gl::enableAlphaBlending();
-}
-
-void Example0205App::mouseDown( MouseEvent event )
-{
-}
-
-void Example0205App::update()
-{
 }
 
 void Example0205App::draw()
@@ -128,6 +115,7 @@ void Example0205App::draw()
     glDisable ( GL_LINE_STIPPLE );
 }
 
+// -- Draws a single line segment
 void Example0205App::drawOneLine( float x1, float y1, float x2, float y2)
 {
     glBegin(GL_LINES);
@@ -136,8 +124,10 @@ void Example0205App::drawOneLine( float x1, float y1, float x2, float y2)
     glEnd();
 }
 
+// -- Draws the binary representation of the stipple to the screen above the actual line
 void Example0205App::drawPatternString( uint n, Vec2i pos )
 {
+    // -- convert a 16 bit integer to binary
     std::bitset<16>  x(n);
     stringstream s;
     s << n;
