@@ -584,9 +584,9 @@
 				</dict>
 			</array>
 		</dict>
-		<real>331351712.50336099</real>
-		<string>{1716, 1854}</string>
-		<string>{2145, 0}</string>
+		<real>331352203.15161002</real>
+		<string>{0, 1639}</string>
+		<string>{146, 0}</string>
 		<dict>
 			<key>$class</key>
 			<dict>
@@ -1358,7 +1358,7 @@
 				<integer>135</integer>
 			</dict>
 			<key>NS.time</key>
-			<real>331351707.50299299</real>
+			<real>331352189.154405</real>
 		</dict>
 		<dict>
 			<key>$classes</key>
@@ -1369,7 +1369,7 @@
 			<key>$classname</key>
 			<string>NSDate</string>
 		</dict>
-		<string>Today at 7:08 PM</string>
+		<string>Today at 7:16 PM</string>
 		<integer>106</integer>
 		<dict>
 			<key>$class</key>
@@ -2794,10 +2794,10 @@
 				</dict>
 			</array>
 		</dict>
-		<real>331351712.50421703</real>
-		<string>{1716, 1854}</string>
-		<string>{2145, 0}</string>
-		<string>TextureSequenceApp::keyDown( KeyEvent event )</string>
+		<real>331352203.15211397</real>
+		<string>{0, 1639}</string>
+		<string>{146, 0}</string>
+		<string>TextureSequenceApp.cpp</string>
 		<string>TextureSequenceApp.cpp</string>
 		<dict>
 			<key>$class</key>
