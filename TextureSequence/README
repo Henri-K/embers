@@ -1,1 +1,3 @@
 A simple class for loading and playing back a sequence of images. There are hooks for controlling the speed of playback ( forward & backward ), pause, play, stop, looping & seeking. The class allows you to create a sequence from the contents of a given folder, a list of file paths or a list of already created textures.
+
+Includes an example of creating a custom mouse cursor using a glowing orb image sequence. 
