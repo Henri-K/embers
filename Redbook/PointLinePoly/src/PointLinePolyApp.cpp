@@ -28,7 +28,6 @@ void PointLinePolyApp::prepareSettings(Settings *settings )
 
 void PointLinePolyApp::draw()
 {
-	// clear out the window with black
 	gl::clear( Color( .1, .16, .19 ) ); 
     enableAlphaBlending();
     
